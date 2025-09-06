@@ -136,7 +136,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: #302d2ab8;
+  background: #302d2adb;
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -293,11 +293,12 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 32px;
+  border: 1px solid rgb(56, 53, 53);
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #302d2a;
+  background: #302d2ab7;
 }
 
 #intro .btn-get-started:hover {
@@ -795,7 +796,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../images/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(57, 57, 57, 0.836), rgba(0, 0, 0, 0.1)), url(../images/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }

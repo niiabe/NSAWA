@@ -1578,6 +1578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #header #logo img {
     height: 50px !important;
+    width: auto !important;
   }
 
   #intro h2 {

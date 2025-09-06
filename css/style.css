@@ -293,7 +293,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 32px;
-  border: 1px solid rgb(56, 53, 53);
+  border: 2px solid rgb(56, 53, 53);
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
@@ -784,6 +784,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .box:hover .title a {
   color: #2e2e2ee6;
   text-decoration: underline;  
+  transition: 0.3s;
 }
 
 #services .description {

@@ -1577,8 +1577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    height: 50px !important;
-    width: 100px !important;
+    max-height: 40px;
   }
 
   #intro h2 {

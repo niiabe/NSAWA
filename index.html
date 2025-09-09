@@ -31,6 +31,7 @@
   <link href="css/ionicons.min.css" rel="stylesheet">
   <link href="css/owl.carousel.min.css" rel="stylesheet">
   <link href="css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <!-- ion script -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -75,7 +76,7 @@
   ============================-->
   <section id="intro">
     <div class="intro-container">
-      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel" >
 
         <ol class="carousel-indicators"></ol>
 
@@ -96,7 +97,7 @@
 
           <div class="carousel-item">
 
-            <div class="carousel-background"><img src="images/grieve.jpg" alt="Funeral announcement being made"></div>           
+            <div class="carousel-background"><img src="images/family.jpg" alt="Funeral announcement being made"></div>           
 
             <div class="carousel-container">
               <div class="carousel-content">
@@ -190,7 +191,7 @@
     <!--==========================
       packages Us Section
     ============================-->
-    <section id="packages">
+    <section id="packages" style="background-color: #282828c2;">
       <div class="container">
 
         <header class="section-header">
@@ -201,45 +202,156 @@
 
         <div class="row packages-cols">
 
-          <div class="col-md-6 wow fadeInUp">
-            <div class="packages-col">
-              <div class="img">
-                <img src="images/horn.jpg" style="height: 100%;" alt="Green Package - Self Service" class="img-fluid">
-                <div class="icon"><i class="ion-ios-checkmark-outline" style="color: rgba(14, 131, 30, 0.935);"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Nova Green</a></h2>
-              <p>
-                <strong>User-Managed Collections</strong><br>
-                Take control with our self-service platform. Perfect for those who want to lead the effort.
-                <ul>
-                  <li>You manage cash, mobile money, and card collections.</li>
-                  <li>1% service charge on mobile money and card transactions.</li>
-                  <li>Service charge is capped at GH₵ 50.</li>
-                </ul>
-              </p>
-            </div>
-          </div>
+  <!-- Nova Green Package -->
+  <div class="col-md-6 wow fadeInUp">
+    <div class="packages-col">
+      <div class="img">
+        <img src="images/horn.jpg" style="height: 100%;" alt="Green Package - Self Service" class="img-fluid">
+        <div class="icon"><i class="ion-ios-checkmark-outline" style="color: rgba(14, 131, 30, 0.935);"></i></div>
+      </div>
+      <h2 class="title"><a href="#">Nsawa Green</a></h2>
+      <p>
+        <strong>User-Managed Collections</strong><br>
+        Take control with our self-service platform. Perfect for those who want to lead the effort.
+        <ul>
+          <li>Free usage for cash collections.</li>
+          <li>Get full access to the platform.</li>
+          <li>Self Managed.</li>
+          <li>You manage cash, mobile money, and card collections.</li>
+          <li>1% service charge on mobile money capped at 50gh</li>
+          <li>4% service charge on all card transactions</li>
+        </ul>
+      </p>
+    </div>
+  </div>
 
-          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="packages-col">
-              <div class="img">
-                <img src="images/dance.jpg" style="height: 100%;" alt="Red Package - Fully Managed" class="img-fluid">
-                <div class="icon"><i class="ion-ios-settings" style="color: rgb(216, 19, 19);"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Nova Red</a></h2>
-              <p>
-                <strong>Professionally Managed Collections</strong><br>
-                Focus on taking care of your family; let us handle the collections entirely.
-                <ul>
-                  <li>Our pros manage all cash, mobile money, and card collections for you.</li>
-                  <li>10% total service charge on all donations.</li>
-                  <li>Service charge is capped at GH₵ 50,000.</li>
-                </ul>
-              </p>
-            </div>
-          </div>
+  <!-- Nova Red Package -->
+  <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="packages-col">
+      <div class="img">
+        <img src="images/dance.jpg" style="height: 100%;" alt="Red Package - Fully Managed" class="img-fluid">
+        <div class="icon"><i class="ion-ios-settings" style="color: rgb(216, 19, 19);"></i></div>
+      </div>
+      <h2 class="title"><a href="#">Nsawa Red</a></h2>
+      <p>
+        <strong>Professionally Managed Collections</strong><br>
+        Focus on taking care of your family; let us handle the collections entirely.
+        <ul>
+          <li>Free usage of system </li>
+          <li>Monitor all transactions live.</li>
+          <li>Our team of professionals do all cash, mobile money, and card collections for you.</li>
+          <li>10% total service charge on all donations.</li>
+          <li>Service charge is capped at GH₵ 50,000.</li>
+        </ul>
+      </p>
+    </div>
+  </div>
 
-        </div>
+  <!-- Comparison Table -->
+  <div class="col-md-12 wow fadeInUp" data-wow-delay="0.2s">
+    <div class="comparison-table">
+      <!-- <h3 class="text-center mb-4">Package Comparison</h3> -->
+      <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Feature</th>
+            <th scope="col" class="text-center">Nsawa Green</th>
+            <th scope="col" class="text-center">Nsawa Red</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cash collection support</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          
+          <tr>
+            <td>Priority customer support</td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Custom donor communication</td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>10% service fee on all donations (capped at 50,000gh)</td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Dedicated support team</td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Customized reporting</td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Mobile money collection</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Card transaction support</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Self-managed collections</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Professionally managed collections</td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Live transaction monitoring</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Free platform access</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>No fees on cash collections</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>1% fee on mobile money (capped at 50gh)</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+          </tr>
+          <tr>
+            <td>4% fee on card transactions</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+          </tr>
+          <tr>
+            <td>QR code generation for donations</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+          <tr>
+            <td>Receipt Generation</td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+            <td class="text-center"><i class="fas fa-check text-success"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 
       </div>
     </section><!-- #packages -->
@@ -867,11 +979,11 @@
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fab fa-google"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
             </div>
 
           </div>

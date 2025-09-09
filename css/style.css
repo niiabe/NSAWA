@@ -309,7 +309,7 @@ h6 {
 
 .nav-menu,
 .nav-menu * {
-  margin: 0;
+  margin: 4px 0;
   padding: 0;
   list-style: none;
 }
@@ -1588,4 +1588,56 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+}
+
+
+
+
+.comparison-table {
+  margin-top: 40px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #f8f9fa;
+  padding: 12px 15px;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,.02);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0,0,0,.04);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
 }

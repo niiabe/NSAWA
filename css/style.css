@@ -1521,6 +1521,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+#footer .btn {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#footer .btn:hover {
+  border: 2px solid #fff;
+  color: #302d2a;
+  background: #ffffff;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1747,7 +1767,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 25px;
-  border: 2px solid rgb(0, 0, 0);
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #000000;

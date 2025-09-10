@@ -1618,6 +1618,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   #mobile-nav-toggle {
     display: inline;
   }
+
+  iframe{
+    width: 100% !important;
+    height: 290px !important;
+    padding: 10px !important;
+    overflow: hidden;
+  }
+
 }
 
 

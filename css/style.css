@@ -1510,13 +1510,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #13a456;
 }
 
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
 #footer .credits {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   font-size: 13px;
   color: #ddd;
 }

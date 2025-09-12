@@ -1806,6 +1806,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size:medium !important;
 }
 
-/* .modal {
+.modal {
   z-index: 10000;
-} */
+} 

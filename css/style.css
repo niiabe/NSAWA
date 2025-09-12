@@ -1798,7 +1798,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Boostrap custom */
 .text-reset{
-  text-decoration: underline 1pxpx  #302d2a important;
+  text-decoration: underline 1px  #302d2a !important;
   font-size: small !important;
 }
 
+.modal {
+  z-index: 10000;
+}

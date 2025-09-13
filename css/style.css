@@ -1803,5 +1803,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .text-reset:hover{
   text-decoration: underline 1px  #302d2a !important;
-  font-size:smaller !important;
+  font-size:small !important;
 }

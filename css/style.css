@@ -1805,7 +1805,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-decoration: underline 1px  #302d2a !important;
   font-size:medium !important;
 }
-
-.modal {
-  z-index: 10000;
-} 
